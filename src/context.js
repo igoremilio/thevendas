@@ -26,8 +26,8 @@ export default class ProductProvider extends Component {
     console.log("hello from details");
   };
 
-  addtoCart = () => {
-    console.log("hello from add to cart");
+  addtoCart = id => {
+    console.log(`Addicionado ao carrinho id: ${id}`);
   };
   render() {
     return (
@@ -45,5 +45,4 @@ export default class ProductProvider extends Component {
 }
 
 const ProductConsumer = ProductContext.Consumer;
-
 export { ProductProvider, ProductConsumer };
