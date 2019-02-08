@@ -28,7 +28,7 @@ https://www.iconfinder.com/Makoto_msk */}
             <span className="mr-2">
               <i className="fas fa-cart-plus" />
             </span>
-            my cart
+            carrinho
           </ButtonContainer>
         </Link>
       </NavWrapper>
